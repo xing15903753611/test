@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
  */
 @Data
 public class User implements Serializable {
-
+    //测试
     private static final long serialVersionUID = 1L;
     private Integer id;
 
