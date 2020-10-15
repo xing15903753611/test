@@ -1,0 +1,14 @@
+server:
+  port: 8333
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/green_crab?serverTimezone=GMT%2B8
+    username: root
+    password: root
+  profiles:
+    active: dev
+mybatis-plus:
+  mapper-locations: mapper.*Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
